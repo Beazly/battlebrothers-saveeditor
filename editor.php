@@ -3,9 +3,9 @@
 // Tested on game version 1.1.0.8 GOG
 // https://steamcommunity.com/sharedfiles/filedetails/?id=598903989
 
-$loadFromFile = './333.sav';
-$brothersCount = 14;
-$saveToFile = './333.sav';
+$loadFromFile ='1st Winterfell Company_1539';
+$brothersCount = 4;
+$saveToFile = '1st Winterfell Company_1539';
 
 $selfFile = basename(__FILE__);
 $options = getopt('h', ['help', 'list', 'set-stats', 'brother:', 'stats:', 'set-action-points', 'points:']);
